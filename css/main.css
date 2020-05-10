@@ -10,12 +10,12 @@ body {
     margin: 0 auto;
     padding: 25px 0;
     font: 13px Verdana, Geneva, sans-serif;
-    width: 940px;
+    width: 950px;
     background-color: #f5f5f5;
     color: #999999;
 }
 
-header, nav, section {
+header, nav, section, article, footer, aside {
     display: block;
 }
 
@@ -56,12 +56,13 @@ nav ul li a.selecionado {
     height: 25px;
     line-height: 25px;
     margin-top: 2px;
+    margin-left: 0px;
 }
 
 #intro {
     height: 180px;
-    width: 940px;
-    background: url('../img/logo.png') right top no-repeat #b2c8f0;
+    width: 950px;
+    background: url('../img/logo.png') right top no-repeat #000000;
     margin-top: 160px;
     padding: 10px;
 }
@@ -86,5 +87,79 @@ nav ul li a.selecionado {
     font-weight: bold;
     font-size: 16px;
     width: 600px;
-    color: #34a8e0;
+    color: #ffffff;
+}
+
+.artigos {
+    float: left;
+    padding: 15px;
+    width: 620px;
+}
+
+.artigos h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #000000;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.artigos h2 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #000000;
+}
+
+#postdate {
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+.artigos p {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 610px;
+    color: #2c2c2c;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.lateral {
+    float: right;
+    width: 240px;
+    padding-left: 40px;
+}
+
+.lateral section {
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.lateral section h1 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.lateral ul {
+    list-style: none;
+}
+
+.lateral ul li {
+    margin-left: 20px;
+}
+
+.lateral ul li a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.lateral ul li a:hover {
+    text-decoration: underline;
 }
